@@ -1,12 +1,12 @@
 import React from "react";
-import Input from "./input";
+import Input from "./Input";
 import Button from "./button";
 
 const Form = () => {
   return (
     <div>
-      <Input />
-      <Input />
+      <Input id="email" label="Email" required />
+      <Input id="senha" type="password" label="Senha" />
       <Button />
     </div>
   );

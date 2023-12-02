@@ -1,6 +1,7 @@
 import React from "react";
 
-const Input = () => {
+const Input = ({ label }) => {
+  <label htmlFor="">{label}</label>;
   return <input type="text" />;
 };
 
